@@ -20,6 +20,10 @@ const routes: Routes = [
         loadChildren: () => import('../tab3/tab3.module').then(m => m.Tab3PageModule)
       },
       {
+        path: 'tabedit',
+        loadChildren: () => import('../tabedit/tabedit.module').then(m => m.TabeditPageModule)
+      },
+      {
         path: '',
         redirectTo: '/tabs/tab1',
         pathMatch: 'full'
@@ -27,8 +31,8 @@ const routes: Routes = [
     ]
   },
   {
-    path: '',
-    redirectTo: '/tabs/tab1',
+    path: 'private',
+    redirectTo: 'private//tabs/tab1',
     pathMatch: 'full'
   }
 ];

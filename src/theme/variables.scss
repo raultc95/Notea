@@ -118,6 +118,13 @@
     --ion-color-warning-shade: #e0bb2e;
     --ion-color-warning-tint: #ffd948;
 
+    --ion-color-note: #ffd740;
+    --ion-color-note-rgb: 255,213,52;
+    --ion-color-note-contrast: #000000;
+    --ion-color-note-contrast-rgb: 0,0,0;
+    --ion-color-note-shade: #ffff74;
+    --ion-color-note-tint: #c8a600;
+
     --ion-color-danger: #ff4961;
     --ion-color-danger-rgb: 255,73,97;
     --ion-color-danger-contrast: #ffffff;
@@ -232,5 +239,6 @@
     --ion-tab-bar-background: #1f1f1f;
 
     --ion-card-background: #1e1e1e;
+    
   }
 }
